@@ -27,6 +27,10 @@ public class Supermarket {
         brojArtikala--;
     }
 
+    public int getBrojArtikala(){
+        return brojArtikala;
+    }
+
     public void dodajArtikl(Artikl biciklo) {
         if(brojArtikala<1000) supermarket[brojArtikala++] = new Artikl(biciklo.getNaziv(), biciklo.getCijena(), biciklo.getKod());
     }

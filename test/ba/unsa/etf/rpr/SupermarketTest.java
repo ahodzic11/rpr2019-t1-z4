@@ -8,11 +8,18 @@ class SupermarketTest {
 
     @Test
     void izbaciArtiklSaKodom() {
-        Artikl[] supermarket = new Artikl[1000];
+        Supermarket supermarket = new Supermarket();
+        Artikl A = new Artikl("Pojacalo", 300, "505");
+        supermarket.dodajArtikl(A);
+        supermarket.izbaciArtiklSaKodom("505");
+        assertEquals(0, supermarket.getBrojArtikala());
     }
 
     @Test
     void dodajArtikl() {
-
+        Supermarket supermarket = new Supermarket();
+        Artikl A = new Artikl("Pojacalo", 300, "505");
+        supermarket.dodajArtikl(A);
+        assertEquals(1, supermarket.getBrojArtikala());
     }
 }

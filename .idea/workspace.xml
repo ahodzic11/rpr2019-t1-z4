@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e132b806-e1ce-4843-9749-13fb4be3d778" name="Default Changelist" comment="Završene sve funkcije">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+    <list default="true" id="e132b806-e1ce-4843-9749-13fb4be3d778" name="Default Changelist" comment="Završeni testovi za klasu Artikl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Korpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Supermarket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +64,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.All in rpr2019-t1-z4">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr2019-t1-z4" />
@@ -106,8 +103,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.All in rpr2019-t1-z4" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.ArtiklTest" />
       </list>
     </recent_temporary>
@@ -142,7 +139,28 @@
       <option name="project" value="LOCAL" />
       <updated>1604154312131</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Završeni testovi za klasu Artikl">
+      <created>1604317338629</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604317338629</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Završeni testovi za klasu Artikl">
+      <created>1604317344968</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604317344968</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Završeni testovi za klasu Artikl">
+      <created>1604317354176</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604317354176</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,29 +178,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="Završene sve funkcije" />
-    <option name="LAST_COMMIT_MESSAGE" value="Završene sve funkcije" />
+    <MESSAGE value="Završeni testovi za klasu Artikl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Završeni testovi za klasu Artikl" />
   </component>
   <component name="WindowStateProjectService">
     <state x="280" y="4" key="#Project_Structure" timestamp="1603714476498">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="280" y="4" key="#Project_Structure/0.0.1600.860@0.0.1600.860" timestamp="1603714476498" />
-    <state width="778" height="222" key="GridCell.Tab.0.bottom" timestamp="1604316600456">
+    <state width="778" height="222" key="GridCell.Tab.0.bottom" timestamp="1604317402198">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604316600456" />
-    <state width="778" height="222" key="GridCell.Tab.0.center" timestamp="1604316600456">
+    <state width="778" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1604317402198" />
+    <state width="778" height="222" key="GridCell.Tab.0.center" timestamp="1604317402197">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604316600456" />
-    <state width="778" height="222" key="GridCell.Tab.0.left" timestamp="1604316600456">
+    <state width="778" height="222" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1604317402197" />
+    <state width="778" height="222" key="GridCell.Tab.0.left" timestamp="1604317402197">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604316600456" />
-    <state width="778" height="222" key="GridCell.Tab.0.right" timestamp="1604316600456">
+    <state width="778" height="222" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1604317402197" />
+    <state width="778" height="222" key="GridCell.Tab.0.right" timestamp="1604317402197">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="778" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604316600456" />
+    <state width="778" height="222" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1604317402197" />
     <state x="392" y="163" key="Vcs.Push.Dialog.v2" timestamp="1604154321388">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -191,10 +210,10 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="504" y="322" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1600.860@0.0.1600.860" timestamp="1604315697277" />
-    <state x="962" y="157" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604316666560">
+    <state x="962" y="157" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1604317532264">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="962" y="157" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1604316666560" />
+    <state x="962" y="157" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1600.860@0.0.1600.860" timestamp="1604317532264" />
     <state x="456" y="195" key="run.anything.popup" timestamp="1604153867117">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
@@ -205,6 +224,10 @@
     <state x="463" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1603715968091" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$Main.ic" NAME="Main Coverage Results" MODIFIED="1604317367848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ba.unsa.etf.rpr.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/rpr2019_t1_z4$All_in_rpr2019_t1_z4.ic" NAME="All in rpr2019-t1-z4 Coverage Results" MODIFIED="1604317402076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/rpr2019_t1_z4$ArtiklTest.ic" NAME="ArtiklTest Coverage Results" MODIFIED="1604316600368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>ba.unsa.etf.rpr.*</FILTER>
     </SUITE>

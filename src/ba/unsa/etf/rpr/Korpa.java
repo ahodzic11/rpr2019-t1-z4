@@ -40,4 +40,8 @@ public class Korpa {
         }
         return suma;
     }
+
+    public int getBrojArtikala(){
+        return brojArtikala;
+    }
 }
